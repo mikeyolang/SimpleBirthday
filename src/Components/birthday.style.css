@@ -1,0 +1,29 @@
+.person {
+  display: flex;
+  border-radius: 20px;
+  column-gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #A49DF3;
+}
+.person img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: gray;
+  padding:20px;
+}
+.person h4 {
+  margin-bottom: 0.35rem;
+}
+.person p {
+  margin-bottom: 0;
+}
+.name {
+  margin: 12px 20px;
+  padding: 10px 10px;
+}
+
